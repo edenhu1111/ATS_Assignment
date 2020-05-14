@@ -1,0 +1,14 @@
+guistep2.obj
+visaudpcom.obj
+cvi.lib
+cvistart.lib
+kernel32.lib
+toolbox.obj
+WSock32.Lib
+advapi32.lib
+cviauto.lib
+gdi32.lib
+user32.lib
+EXE Symbol Module
+Exports Module
+Resource Module

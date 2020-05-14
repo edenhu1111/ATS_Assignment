@@ -1,0 +1,36 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[MainCallback]
+Class="Function"
+Prototype="int MainCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ClearWaveProc]
+Class="Function"
+Prototype="int ClearWaveProc(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[RefreshWaveProc]
+Class="Function"
+Prototype="int RefreshWaveProc(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Initialize]
+Class="Function"
+Prototype="void Initialize();"
+
+[GetAmplitude]
+Class="Function"
+Prototype="int GetAmplitude(double *amplitude);"
+
+[GetFreq]
+Class="Function"
+Prototype="int GetFreq(double *Freq);"
+
+[mydelay]
+Class="Function"
+Prototype="void mydelay(int ms);"
+
+[Plotting]
+Class="Function"
+Prototype="int Plotting();"
+

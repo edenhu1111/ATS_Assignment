@@ -1,0 +1,6 @@
+
+CallCC.bat 1 "c:\Users\huyunbo\Desktop\guistep2\guistep2.c" "c:\Users\huyunbo\Desktop\guistep2\cvibuild.gui\Release\guistep2.obj" "c:\Users\huyunbo\Desktop\guistep2\cvibuild.gui\Release\guistep2.obj.cvidefprots" "c:\Users\huyunbo\Desktop\guistep2\cvibuild.gui\Release\guistep2.obj.out" 
+
+CallCC.bat 2 "c:\Users\huyunbo\Desktop\guistep2\visaudpcom.c" "c:\Users\huyunbo\Desktop\guistep2\cvibuild.gui\Release\visaudpcom.obj" "c:\Users\huyunbo\Desktop\guistep2\cvibuild.gui\Release\visaudpcom.obj.cvidefprots" "c:\Users\huyunbo\Desktop\guistep2\cvibuild.gui\Release\visaudpcom.obj.out" 
+
+CallLink.bat -cmd:link_options.txt

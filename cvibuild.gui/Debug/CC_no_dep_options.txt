@@ -1,0 +1,1 @@
+-force-include-file "gui.h";"c:\Users\huyunbo\Desktop\Projects\guistep2\gui.h" -force-include-file "guistep2.c";"c:\Users\huyunbo\Desktop\Projects\guistep2\guistep2.c" -force-include-file "visaudpcom.c";"c:\Users\huyunbo\Desktop\Projects\guistep2\visaudpcom.c" -force-include-file "visaUDPCom.h";"c:\Users\huyunbo\Desktop\Projects\guistep2\visaUDPCom.h" 

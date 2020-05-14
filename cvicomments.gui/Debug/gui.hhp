@@ -1,0 +1,14 @@
+[ALIAS]
+IDH_ConfigIni=gui_files\FunctConfigIni.html
+IDH_gui_html_main_file=gui.html
+
+[MAP]
+#define IDH_ConfigIni 1
+#define IDH_gui_html_main_file 2
+
+[FILES]
+gui.html
+gui_files\Alphabetical Function Index.html
+gui_files\Hierarchical Function Index.html
+gui_files\FunctConfigIni.html
+gui_files\htmlhelp.css

@@ -1,0 +1,52 @@
+CCFLAGS = -g ;
+HDRS = 	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\activex\\word"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\activex\\excel"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\custctrl"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\custctrl\\custsupp"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\cvirtsup"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\datasock"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\daqUtil"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\printing"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\toolbox"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\reportgen"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\localui"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\instr"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2017\\instr"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2017\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include\\ansi"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include\\clang\\3.3"
+	"C:\\Program Files (x86)\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\MSDTRedistributables\\SDKHeaderFiles\\8.1"
+	"c:\\Program Files (x86)\\National Instruments\\CVI2017\\bin"
+	"c:\\ProgramData\\National Instruments\\CVI2017\\bin"
+	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\bin"
+	;
+include Jamfile_instr ;
+LOCATE on "gui.h" = "c:\\Users\\huyunbo\\Desktop\\Projects\\guistep2" ;
+LOCATE on "guistep2.c" = "c:\\Users\\huyunbo\\Desktop\\Projects\\guistep2" ;
+LOCATE on "visaudpcom.c" = "c:\\Users\\huyunbo\\Desktop\\Projects\\guistep2" ;
+LOCATE on "visaUDPCom.h" = "c:\\Users\\huyunbo\\Desktop\\Projects\\guistep2" ;
+Object "c:\\Users\\huyunbo\\Desktop\\Projects\\guistep2\\cvibuild.gui\\Debug\\guistep2.obj" : "c:\\Users\\huyunbo\\Desktop\\Projects\\guistep2\\guistep2.c" ;
+FILENUM on "c:\\Users\\huyunbo\\Desktop\\Projects\\guistep2\\cvibuild.gui\\Debug\\guistep2.obj" = 1 ;
+DEFPROTS on "c:\\Users\\huyunbo\\Desktop\\Projects\\guistep2\\cvibuild.gui\\Debug\\guistep2.obj" = "c:\\Users\\huyunbo\\Desktop\\Projects\\guistep2\\cvibuild.gui\\Debug\\guistep2.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\huyunbo\\Desktop\\Projects\\guistep2\\cvibuild.gui\\Debug\\guistep2.obj" = "c:\\Users\\huyunbo\\Desktop\\Projects\\guistep2\\cvibuild.gui\\Debug\\guistep2.obj.out" ;
+PrjObjects += "c:\\Users\\huyunbo\\Desktop\\Projects\\guistep2\\cvibuild.gui\\Debug\\guistep2.obj" ;
+Object "c:\\Users\\huyunbo\\Desktop\\Projects\\guistep2\\cvibuild.gui\\Debug\\visaudpcom.obj" : "c:\\Users\\huyunbo\\Desktop\\Projects\\guistep2\\visaudpcom.c" ;
+FILENUM on "c:\\Users\\huyunbo\\Desktop\\Projects\\guistep2\\cvibuild.gui\\Debug\\visaudpcom.obj" = 2 ;
+DEFPROTS on "c:\\Users\\huyunbo\\Desktop\\Projects\\guistep2\\cvibuild.gui\\Debug\\visaudpcom.obj" = "c:\\Users\\huyunbo\\Desktop\\Projects\\guistep2\\cvibuild.gui\\Debug\\visaudpcom.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\huyunbo\\Desktop\\Projects\\guistep2\\cvibuild.gui\\Debug\\visaudpcom.obj" = "c:\\Users\\huyunbo\\Desktop\\Projects\\guistep2\\cvibuild.gui\\Debug\\visaudpcom.obj.out" ;
+PrjObjects += "c:\\Users\\huyunbo\\Desktop\\Projects\\guistep2\\cvibuild.gui\\Debug\\visaudpcom.obj" ;
+Object "c:\\Users\\huyunbo\\Desktop\\Projects\\guistep2\\cvibuild.gui\\Debug\\resources.res" : "c:\\Users\\huyunbo\\Desktop\\Projects\\guistep2\\cvibuild.gui\\Debug\\resources.in.rc" ;
+Depends "c:\\Users\\huyunbo\\Desktop\\Projects\\guistep2\\cvibuild.gui\\Debug\\resources.res" : "c:\\Users\\huyunbo\\Desktop\\Projects\\guistep2\\cvibuild.gui\\Debug\\manifest.xml" ;
+MainFromObjects "c:\\Users\\huyunbo\\Desktop\\Projects\\guistep2\\cvibuild.gui\\Debug\\gui_dbg.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "c:\\Users\\huyunbo\\Desktop\\Projects\\guistep2\\cvibuild.gui\\Debug\\gui_dbg.exe" : "c:\\Users\\huyunbo\\Desktop\\Projects\\guistep2\\cvibuild.gui\\Debug\\link_options.txt" ;
+Depends "c:\\Users\\huyunbo\\Desktop\\Projects\\guistep2\\cvibuild.gui\\Debug\\gui_dbg.exe" : "c:\\Users\\huyunbo\\Desktop\\Projects\\guistep2\\cvibuild.gui\\Debug\\resources.res" ;
+Depends "c:\\Users\\huyunbo\\Desktop\\Projects\\guistep2\\cvibuild.gui\\Debug\\resources.res" :  "c:\\Users\\huyunbo\\Desktop\\Projects\\guistep2\\gui.uir" ;
+Depends all : "c:\\Users\\huyunbo\\Desktop\\Projects\\guistep2\\cvibuild.gui\\Debug\\gui_dbg.exe" ;

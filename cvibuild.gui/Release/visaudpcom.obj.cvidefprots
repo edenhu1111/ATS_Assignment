@@ -1,0 +1,124 @@
+[ConfigIni]
+Class="Function"
+Prototype="int ConfigIni(unsigned int port);"
+
+[UDPCallbackFromConfig]
+Class="Function"
+Prototype="int UDPCallbackFromConfig(unsigned int channel, int eventType, int errCode, void *callbackData);"
+
+[UDPCallbackFromProg]
+Class="Function"
+Prototype="int UDPCallbackFromProg(unsigned int channel, int eventType, int errCode, void *callbackData);"
+
+[UDPCallbackFromSig_1]
+Class="Function"
+Prototype="int UDPCallbackFromSig_1(unsigned int channel, int eventType, int errCode, void *callbackData);"
+
+[UDPCallbackFromSig_2]
+Class="Function"
+Prototype="int UDPCallbackFromSig_2(unsigned int channel, int eventType, int errCode, void *callbackData);"
+
+[UDPCallbackFromSig_3]
+Class="Function"
+Prototype="int UDPCallbackFromSig_3(unsigned int channel, int eventType, int errCode, void *callbackData);"
+
+[UDPCallbackFromSig_4]
+Class="Function"
+Prototype="int UDPCallbackFromSig_4(unsigned int channel, int eventType, int errCode, void *callbackData);"
+
+[UDPCallbackFromSig_5]
+Class="Function"
+Prototype="int UDPCallbackFromSig_5(unsigned int channel, int eventType, int errCode, void *callbackData);"
+
+[UDPCallbackFromSig_6]
+Class="Function"
+Prototype="int UDPCallbackFromSig_6(unsigned int channel, int eventType, int errCode, void *callbackData);"
+
+[UDPCallbackFromSig_7]
+Class="Function"
+Prototype="int UDPCallbackFromSig_7(unsigned int channel, int eventType, int errCode, void *callbackData);"
+
+[UDPCallbackFromSig_8]
+Class="Function"
+Prototype="int UDPCallbackFromSig_8(unsigned int channel, int eventType, int errCode, void *callbackData);"
+
+[ProgWriteInfo]
+Class="Function"
+Prototype="int ProgWriteInfo(char *msg, ConfigInfo configinfo, int ilen);"
+
+[Sig_1WriteInfo]
+Class="Function"
+Prototype="int Sig_1WriteInfo(char *msg, ConfigInfo configinfo, int ilen);"
+
+[Sig_2WriteInfo]
+Class="Function"
+Prototype="int Sig_2WriteInfo(char *msg, ConfigInfo configinfo, int ilen);"
+
+[Sig_3WriteInfo]
+Class="Function"
+Prototype="int Sig_3WriteInfo(char *msg, ConfigInfo configinfo, int ilen);"
+
+[Sig_4WriteInfo]
+Class="Function"
+Prototype="int Sig_4WriteInfo(char *msg, ConfigInfo configinfo, int ilen);"
+
+[Sig_5WriteInfo]
+Class="Function"
+Prototype="int Sig_5WriteInfo(char *msg, ConfigInfo configinfo, int ilen);"
+
+[Sig_6WriteInfo]
+Class="Function"
+Prototype="int Sig_6WriteInfo(char *msg, ConfigInfo configinfo, int ilen);"
+
+[Sig_7WriteInfo]
+Class="Function"
+Prototype="int Sig_7WriteInfo(char *msg, ConfigInfo configinfo, int ilen);"
+
+[Sig_8WriteInfo]
+Class="Function"
+Prototype="int Sig_8WriteInfo(char *msg, ConfigInfo configinfo, int ilen);"
+
+[uviOpenDefaultRM]
+Class="Function"
+Prototype="int uviOpenDefaultRM(int *Rsrc_Manager_Handle);"
+
+[uviOpen]
+Class="Function"
+Prototype="int uviOpen(int Rsrc_Manager_Handle, char *Instrument_Descriptor, int Access_Mode, int Open_Timeout, int *Instrument_Handle);"
+
+[uviPrintf]
+Class="Function"
+Prototype="int uviPrintf(int Instrument_Handle, char *Write_Format_String, ...);"
+
+[uviScanf]
+Class="Function"
+Prototype="int uviScanf(int Instrument_Handle, char *Read_Format_String, ...);"
+
+[ThreadGetDataProc]
+Class="Function"
+Prototype="unsigned long ThreadGetDataProc(void *pParam);"
+
+[InitWinsock]
+Class="Function"
+Prototype="int InitWinsock();"
+
+[uviQueryf]
+Class="Function"
+Prototype="int uviQueryf(int Instrument_Handle, char *Write_Format_String, char *Read_Format_String, ...);"
+
+[uviWrite]
+Class="Function"
+Prototype="int uviWrite(int Instrument_Handle, char *Buffer, int Count, int *Return_Count);"
+
+[uviRead]
+Class="Function"
+Prototype="int uviRead(int Instrument_Handle, unsigned char *Buffer, int Count, int *Return_Count);"
+
+[uviClose]
+Class="Function"
+Prototype="int uviClose(int *Rsrc_Manager_Handle);"
+
+[uviClear]
+Class="Function"
+Prototype="int uviClear(int Instrument_Handle);"
+

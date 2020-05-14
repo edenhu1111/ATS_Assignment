@@ -1,0 +1,42 @@
+#include "C:\Program Files (x86)\National Instruments\Shared\MSDTRedistributables\SDKHeaderFiles\8.1\winver.h"
+
+2 ICON "c:\\Users\\huyunbo\\Desktop\\Projects\\guistep2\\bitbug_favicon.ico"
+1 24 "c:\\Users\\huyunbo\\Desktop\\Projects\\guistep2\\cvibuild.gui\\Debug\\manifest.xml"
+
+
+STRINGTABLE DISCARDABLE
+BEGIN
+  65535  "gui_dbg"
+END
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+ FILEFLAGS 0x9L
+ FILEOS VOS__WINDOWS32
+ FILETYPE VFT_APP
+ FILESUBTYPE VFT_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "Eden\0"
+            VALUE "FileDescription", "gui_dbg (Debug x86)\0"
+            VALUE "FileVersion", "1.0\0"
+            VALUE "InternalName", "gui_dbg\0"
+            VALUE "LegalCopyright", "Copyright   2020\0"
+            VALUE "OriginalFilename", "gui_dbg.exe\0"
+            VALUE "PrivateBuild", "胡云博的ATS作业，抄袭必究\0"
+            VALUE "ProductName", " gui_dbg\0"
+            VALUE "ProductVersion", "1.0\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 0x4b0
+    END
+END
+
+gui.uir UIRFileType "c:\\Users\\huyunbo\\Desktop\\Projects\\guistep2\\gui.uir"
