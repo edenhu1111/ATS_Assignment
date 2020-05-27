@@ -58,7 +58,7 @@ int main(int argc, char *argv[])
    	/* Display the panel and run the UI -- the menubar was attached to the   */
     /* panel already in the UIR Editor.                                      */
     DisplayPanel (hpanel);  
-	InstallMainCallback (MainCallback, 0, 1); 
+	InstallMainCallback (MainCallback, 0, 0); 
 	CmtNewThreadPool(3,&pool_handle);
 	CmtScheduleThreadPoolFunction (pool_handle, Plotting, NULL, &Plotting_id);
 	RunUserInterface ();                                                        

@@ -14,9 +14,9 @@ Active Project = 1
 Project 0001 = "gui.prj"
 Drag Bar Left = 308
 Window Top = 99
-Window Left = 93
+Window Left = 185
 Window Bottom = 562
-Window Right = 867
+Window Right = 959
 Maximized = True
 Maximized Children = True
 Max32 Number Of Errors = 20
@@ -48,12 +48,12 @@ Batch Build Debug = False
 [File 0001]
 Path = "/c/Users/huyunbo/Desktop/Projects/guistep2/guistep2.c"
 File Type = "CSource"
-Disk Date = 3672221020
+Disk Date = 3673404338
 In Projects = "1,"
 Window Top = 152
 Window Left = 74
-Window Z-Order = 1
-Source Window State = "1,112,112,112,11,85,85,0,0,137,0,0,0,0,0,48,0,0,21,50,323,521,1,0,"
+Window Z-Order = 2
+Source Window State = "1,60,60,60,42,43,43,0,0,77,0,0,0,0,0,25,42,0,60,43,323,521,1,0,"
 
 [File 0002]
 Path = "/c/Users/huyunbo/Desktop/Projects/guistep2/visaudpcom.c"
@@ -62,8 +62,8 @@ Disk Date = 3671917148
 In Projects = "1,"
 Window Top = 95
 Window Left = 42
-Window Z-Order = 2
-Source Window State = "1,405,406,405,0,0,0,0,0,80,0,353,0,0,0,25,636,0,648,16,323,541,1,0,"
+Window Z-Order = 1
+Source Window State = "1,405,406,405,0,0,0,0,0,137,0,353,0,0,0,32,292,0,317,35,323,541,1,0,"
 
 [File 0003]
 Path = "/c/Users/huyunbo/Desktop/Projects/guistep2/gui.h"
